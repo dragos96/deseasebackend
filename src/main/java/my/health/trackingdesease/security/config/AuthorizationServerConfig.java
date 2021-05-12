@@ -22,7 +22,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     // you can use one of bcrypt/noop/pbkdf2/scrypt/sha256
     // you can change default behaviour by providing a bean with the encoder you want
     // more: https://spring.io/blog/2017/11/01/spring-security-5-0-0-rc1-released#password-encoding
-    static final String CLIENT_SECRET = "{noop}my-secret"; // 
+    static final String CLIENT_SECRET = "my-secret"; // 
 
     private static final String GRANT_TYPE_PASSWORD = "password";
     private static final String AUTHORIZATION_CODE = "authorization_code";
